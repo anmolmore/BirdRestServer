@@ -1,0 +1,8 @@
+{
+"id" : "id1",
+"name" : "Eagle",
+"Family" : "raptors",
+"continents" : ["asia","africa"],
+"added" : "12-01-2015T34:23",
+"visible" : true
+}
