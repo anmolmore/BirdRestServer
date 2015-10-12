@@ -1,0 +1,19 @@
+1. Get Singleton isntance of MongoDB instead of static instance in MyMongoClient.
+
+2. Considering enterprise applications mostly have entry point in Servlet, in this case RestServlet should be entry point and create. A request controller will forward the respective requests to BirdResource for GET, POST, DELETE requests.
+
+3. Reading request body for POST can be enhanced to use inbuilt jerysey functionality
+
+4. Enhance exception handling to throw proper status as 500, 404 when exception occurs
+
+5. Enhance delete /birds/{id} to check whether delete operation was successful.
+
+6. handle "visible" attribute when not sent during POST.
+
+7. Store date in UTC instead on system locale specific dates
+
+8.items[] array in list of birds should to be sent in json response instead of array objects
+
+9. test cases need to be written.
+
+10. Testing using rest client needs to be done.
